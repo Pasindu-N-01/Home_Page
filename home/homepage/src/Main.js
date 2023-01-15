@@ -10,6 +10,7 @@ import Contact from "./Contact";
 
 class Main extends Component {
   render() {
+    <HashRouter>
     return (
         <div>
           <h1>Simple SPA</h1>
@@ -22,6 +23,7 @@ class Main extends Component {
 
 </div>
 </div>
+</HashRouter>
 );
 }
 }
